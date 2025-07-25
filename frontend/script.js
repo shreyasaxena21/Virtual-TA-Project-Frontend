@@ -1,3 +1,8 @@
+document.addEventListener("DOMContentLoaded", function () {
+  document.getElementById("askBtn").addEventListener("click", submitQuery);
+});
+
+
 async function submitQuery() {
   const question = document.getElementById("question").value;
   const answerBox = document.getElementById("answer");
