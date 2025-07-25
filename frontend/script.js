@@ -56,3 +56,5 @@ async function submitQuery() {
     spinner.style.display = "none"; // hide spinner
   }
 }
+
+window.submitQuery = submitQuery;
