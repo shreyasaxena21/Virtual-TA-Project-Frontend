@@ -1,6 +1,3 @@
-document.addEventListener("DOMContentLoaded", function () {
-  document.getElementById("askBtn").addEventListener("click", submitQuery);
-});
 
 
 async function submitQuery() {
@@ -34,5 +31,8 @@ async function submitQuery() {
   }
 }
 
+document.addEventListener("DOMContentLoaded", function () {
+  document.getElementById("askBtn").addEventListener("click", submitQuery);
+});
 
 window.submitQuery = submitQuery;
